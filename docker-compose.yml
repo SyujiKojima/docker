@@ -16,7 +16,7 @@ services:
     ports:
       - 1433:1433
     volumes:
-      - ./initdb.d:docker-initdb.d
+      - ./initdb.d;docker-initdb.d
       - mssql_data:/var/opt/mssql/data
       - mssql_log:/var/opt/mssql/log
       - mssql_secrets:/var/opt/mssql/secrets
