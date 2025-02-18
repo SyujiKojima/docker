@@ -4,7 +4,7 @@ services:
   mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
     user: root
-    containar_name: mssql
+    container_name: mssql
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=Passw0rd
